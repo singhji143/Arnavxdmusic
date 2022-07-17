@@ -24,7 +24,7 @@ async def main():
         try:
             await USER.join_chat("Final_Countdown_Survivors")
             await USER.join_chat("Op_cutearnav123")
-            await USER.join_chat("link_copied")
+            await USER.join_chat("SilentVerse")
         except UserAlreadyParticipant:
             pass
         except Exception as e:
