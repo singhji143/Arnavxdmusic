@@ -165,7 +165,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/9350788513346feef5087.jpg"
+        thumb_name = "https://te.legra.ph/file/52a7be54d4db7ca8dacc9.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -175,10 +175,10 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="✰ ᴛᴇᴀᴍ-ʟᴜᴄᴋʏ",
-                            url=f"https://t.me/terayaarhoomai"),
+                            url=f"https://t.me/Final_Countdown_Survivors"),
                     InlineKeyboardButton(
                             text="ᴜᴘᴅᴀᴛᴇs ✰",
-                            url=f"https://t.me/official_lucky01"),
+                            url=f"https://t.me/Op_cutearnav123"),
                ],
                [
                    InlineKeyboardButton(text="✰ ᴄʟᴏꜱᴇ ᴍᴇɴᴜ ✰", callback_data="close_"),                   
@@ -219,10 +219,10 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="✰ ᴛᴇᴀᴍ-ʟᴜᴄᴋʏ",
-                            url=f"https://t.me/terayaarhoomai"),
+                            url=f"https://t.me/Final_Countdown_Survivors"),
                     InlineKeyboardButton(
                             text="ᴜᴘᴅᴀᴛᴇs ✰",
-                            url=f"https://t.me/official_lucky01"),
+                            url=f"https://t.me/Op_cutearnav123"),
                ],
                [
                    InlineKeyboardButton(text="✰ ᴄʟᴏꜱᴇ ᴍᴇɴᴜ ✰", callback_data="close_"),                   
@@ -232,7 +232,7 @@ async def play(_, message: Message):
     
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/9350788513346feef5087.jpg"
+            thumb_name = "https://te.legra.ph/file/52a7be54d4db7ca8dacc9.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -240,10 +240,10 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="✰ ᴛᴇᴀᴍ-ʟᴜᴄᴋʏ",
-                            url=f"https://t.me/terayaarhoomai"),
+                            url=f"https://t.me/Final_Countdown_Survivors"),
                     InlineKeyboardButton(
                             text="ᴜᴘᴅᴀᴛᴇs ✰",
-                            url=f"https://t.me/official_lucky01"),
+                            url=f"https://t.me/Op_cutearnav123"),
                ],
                [
                    InlineKeyboardButton(text="✰ ᴄʟᴏꜱᴇ ᴍᴇɴᴜ ✰", callback_data="close_"),                   
@@ -299,10 +299,10 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                             text="✰ ᴛᴇᴀᴍ-ʟᴜᴄᴋʏ",
-                            url=f"https://t.me/TeraYaarHooMai"),
+                            url=f"https://t.me/Final_Countdown_Survivors"),
                     InlineKeyboardButton(
                             text="ᴜᴘᴅᴀᴛᴇs ✰",
-                            url=f"https://t.me/official_lucky01"),
+                            url=f"https://t.me/Op_cutearnav123"),
                ],
                [
                    InlineKeyboardButton(text="✰ ᴄʟᴏꜱᴇ ᴍᴇɴᴜ ✰", callback_data="close_"),                   
