@@ -33,7 +33,7 @@ def callback_query(Client, callback: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(button2)
         )
     elif callback.data == "repo_k":
-        callback.answer('ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏꜰ ꜱᴛᴜᴘɪᴅ ᴍᴜꜱɪᴄꜱ ʙʏ @cute_boy701', show_alert=True)                
+        callback.answer('ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏꜰ ᴀʀɴᴀᴠ ᴍᴜꜱɪᴄꜱ ʙʏ @Op_cutearnav123', show_alert=True)                
         callback.edit_message_text(
             t5.format(callback.from_user.mention, BOT_NAME),
             reply_markup=InlineKeyboardMarkup(button3)
