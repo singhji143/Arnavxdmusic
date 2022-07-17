@@ -2,10 +2,9 @@
 # Dear Pero ppls Plish Don't remove this line from here🌚
 # created by ItsmeHyper13
 
-import requests, time
+import requests
 from pyrogram import idle
 from pyrogram import Client as Bot
-from callsmusic.callsmusic import client as USER
 
 from callsmusic import run
 from config import API_ID, API_HASH, BOT_TOKEN
@@ -18,18 +17,6 @@ bot = Bot(
     bot_token=BOT_TOKEN,
     plugins=dict(root="handlers")
 )
-lbda = time.time()
-async def main():
-    async with bot:
-        try:
-            await USER.join_chat("terayaarhoomai")
-            await USER.join_chat("official_lucky01")
-            await USER.join_chat("SilentVerse")
-        except UserAlreadyParticipant:
-            pass
-        except Exception as e:
-            print(e)
-            pass
 
 bot.start()
 run()
