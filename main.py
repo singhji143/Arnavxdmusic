@@ -5,7 +5,7 @@
 import requests, time
 from pyrogram import idle
 from pyrogram import Client as Bot
-from callsmusic import client as USER
+from callsmusic.callsmusic import client as USER
 
 from callsmusic import run
 from config import API_ID, API_HASH, BOT_TOKEN
@@ -31,6 +31,6 @@ async def main():
             print(e)
             pass
 
-bot.start()
-run()
-idle()
+bot = 'start.start'
+'run'
+'idle'
