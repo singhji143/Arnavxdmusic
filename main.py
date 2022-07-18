@@ -31,6 +31,6 @@ async def main():
             print(e)
             pass
 
-bot = 'start.start'
-'run'
-'idle'
+bot.start()
+run()
+idle()
