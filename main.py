@@ -31,6 +31,6 @@ async def main():
             print(e)
             pass
 
-bot.start()
+plugins={"root": "handlers"},).start()
 run()
 idle()
