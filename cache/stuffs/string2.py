@@ -5,10 +5,10 @@ from config import (BOT_NAME, SUPPORT_GROUP, OWNER_USERNAME, BOT_USERNAME)
 button1 = [
     [
         InlineKeyboardButton(text="◉ ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/Op_cutearnav123"),
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ◉", url=f"http://t.me/{BOT_USERNAME}?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ◉", url=f"http://t.me/arnav_officialbot"),?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="◉ ᴏᴡɴᴇʀ", url=f"https://t.me/{OWNER_USERNAME}"),
+        InlineKeyboardButton(text="◉ ᴏᴡɴᴇʀ", url=f"https://t.me/op_cutearnav123"),
         InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ ◉", callback_data="repo_k"),
     ],                
     [                    
