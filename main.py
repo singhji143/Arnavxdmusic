@@ -30,7 +30,6 @@ async def main():
         except Exception as e:
             print(e)
             pass
-
-plugins={"root": "handlers"},).start()
+bot.start()
 run()
 idle()
